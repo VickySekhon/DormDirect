@@ -18,3 +18,5 @@ As mentioned we used ```React```, ```Flask```, ```BeautifulSoup```, ```css/tailw
 
 ## 🔮 What's next?
 - Incorporating listings from **Facebook MarketPlace**, **Bamboo Housing**, and **Airbnb** to create one centralized location for students to find listings on.
+- Adding a favoriting function for users to save listings that interest them.
+- Creating a feature that allows users to post their listings to platform.
