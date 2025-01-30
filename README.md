@@ -6,17 +6,19 @@ _Are You a University Student Looking for housing in Waterloo? Are You Tired of 
 ## 🎥 Demo
 https://github.com/user-attachments/assets/17fe21a8-d3f7-481d-b6e9-400894cf1222
 
-
 ## 💡 Inspiration
 Navigating between schoolwork, tuition fees, and internships is already difficult enough for university students. Looking for housing becomes strenuous, especially between work and school terms. That's why we built DormDirect to streamline the process of finding listings for university students in Waterloo. All of us are Co-op students which means we're constantly looking for housing between work terms and we thought to build a platform that will help us do this. 
 
-## 🛠️ What it does
+## 🛠️ What it Does
 DormDirect uses a BeautifulSoup Web Scrapper to scrape listings from 3 popular listing searches on Kijiji (1 => "Student housing waterloo", 2 => "Wilfrid Laurier University housing", 3 => "University of Waterloo housing"). Once the listings are scrapped, they are contained within a Flask backend that Jsonifies the fetched listing information and makes it available at an API endpoint. The React frontend  retrieves the jsonified listing content from the endpoint and displays it in a clean way.      
-
-## 🧰 How we built it
+## 🧰 How we Built It
 As mentioned we used ```React```, ```Flask```, ```BeautifulSoup```, ```css/tailwind.css```, and ```Firebase``` for user authentication.
 
-## 🔮 What's next?
+## Class Diagrams (UML)
+![UML](https://github.com/user-attachments/assets/dba7c078-6df8-41cf-b15c-1792a5889ad8)
+![Web-Page Components](https://github.com/user-attachments/assets/8c676646-d2f3-4ab7-a5f7-85f2e4103fb7)
+
+## 🔮 What Is Next?
 - Incorporating listings from **Facebook MarketPlace**, **Bamboo Housing**, and **Airbnb** to create one centralized location for students to find listings on.
 - Adding a favoriting function for users to save listings that interest them.
 - Creating a feature that allows users to post their listings to platform.
